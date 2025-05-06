@@ -5,7 +5,7 @@ const app = express();
 const validateMovie = require('./movie.js');
 const cors = require('cors');
 
-const port = process.env.PORT ?? 3000;
+const port = process.env.PORT || 3000;
 
 
 app.use(express.json());
