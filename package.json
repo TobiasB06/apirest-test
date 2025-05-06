@@ -4,7 +4,7 @@
   "description": "el mejor programa de node",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node express/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yo",
